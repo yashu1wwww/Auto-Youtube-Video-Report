@@ -20,7 +20,7 @@ wait.until(EC.visibility_of_element_located((By.NAME,'Passwd'))).send_keys(passw
 
 time.sleep(3)
 
-url = 'https://www.youtube.com/watch?v=9fux9swQ5AQ' #replace video which you want to report it....
+url = 'https://youtu.be/kLHTtiwP4G8' #replace video which you want to report it....
 driver.get(url)
 
 time.sleep(5)
@@ -35,7 +35,7 @@ time.sleep(3)
 
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown[2]/div/ytd-menu-popup-renderer/tp-yt-paper-listbox/ytd-menu-navigation-item-renderer/a/tp-yt-paper-item').click()#report
 
-time.sleep(4)
+time.sleep(3)
 
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-paper-dialog/yt-report-form-modal-renderer/tp-yt-paper-dialog-scrollable/div/yt-report-form-modal-content/div/yt-options-renderer/div/tp-yt-paper-radio-group/tp-yt-paper-radio-button[1]/div[2]/div/yt-formatted-string').click()#1/11-you must select option 
 
@@ -43,11 +43,13 @@ time.sleep(3)
 
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-paper-dialog/yt-report-form-modal-renderer/div/yt-button-renderer[2]/yt-button-shape/button/yt-touch-feedback-shape/div/div[2]').click()#next button
 
-time.sleep(4)
+time.sleep(3)
 
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-paper-dialog[2]/yt-report-details-form-renderer/yt-report-details-form-content/div/div/tp-yt-paper-input-container/div[2]/div/tp-yt-iron-autogrow-textarea/div[2]/textarea').send_keys('these video harrassing someone')
 
-time.sleep(3)
+#after selecting report video they will ask for choose one reason in 6 sec gap you must select it...
+
+time.sleep(6)
 
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-paper-dialog[2]/yt-report-details-form-renderer/div[2]/div[2]/yt-button-renderer/yt-button-shape/button/yt-touch-feedback-shape/div/div[2]').click()#report
 
