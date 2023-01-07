@@ -25,7 +25,7 @@ enter report.py in cmd on that particular folder or double click on report.py...
 
 And enter
 
-pip install selenium==4.2.1 or pip install selenium==4.2.0
+pip install selenium==4.2.0
 
 and hit enter
 
