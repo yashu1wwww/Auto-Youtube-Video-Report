@@ -7,6 +7,8 @@ Auto Youtube Video Report Using Selenium with python
 
 note:-use accounts which dont have 2-factor authentication...
 
+#after selecting report and automatically harrassment otr bullying they will ask reason please select it within 6 seconds others process with work automatically.....
+
 After download the folder extract it and open cmd and enter Python If You Find Python Version
 
 Open cmd and enter pip install random and hit enter button (internet connection must be on...) and again pip install undetected_chromedriver and hit enter button (internet connection must be on...)
