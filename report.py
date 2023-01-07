@@ -39,7 +39,13 @@ time.sleep(3)
 
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-paper-dialog[1]/yt-report-form-modal-renderer/tp-yt-paper-dialog-scrollable/div/yt-report-form-modal-content/div/yt-options-renderer/div/tp-yt-paper-radio-group/tp-yt-paper-radio-button[4]/div[2]/div/yt-formatted-string').click()#4/11(harrassment or bullying)
 
-#after selecting report and automatically harrassment otr bullying they will ask reason please select it within 6 seconds others process with work automatically.....
+time.sleep(2)
+
+driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-paper-dialog/yt-report-form-modal-renderer/tp-yt-paper-dialog-scrollable/div/yt-report-form-modal-content/div/yt-options-renderer/div/tp-yt-paper-radio-group/tp-yt-paper-dropdown-menu[4]/tp-yt-paper-menu-button/div/div/tp-yt-paper-input/tp-yt-paper-input-container/div[2]').click()#auto choose option
+
+time.sleep(2)
+
+driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-paper-dialog/yt-report-form-modal-renderer/tp-yt-paper-dialog-scrollable/div/yt-report-form-modal-content/div/yt-options-renderer/div/tp-yt-paper-radio-group/tp-yt-paper-dropdown-menu[4]/tp-yt-paper-menu-button/tp-yt-iron-dropdown/div/div/tp-yt-paper-listbox/tp-yt-paper-item[2]').click() #select first option
 
 time.sleep(3)
 
