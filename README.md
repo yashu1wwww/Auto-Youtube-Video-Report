@@ -1,11 +1,11 @@
 # Auto-Youtube-Video-Report
 Auto Youtube Video Report Using Selenium with python
 
-#Replace Email and Pass in 14th & 15th line...
+#Replace Email and Pass in 10th & 11th line...
+
+#replace 23 linr with your video url which you want ot report ity...
 
 note:-use accounts which dont have 2-factor authentication...
-
-change url in url.txt file which url you required and change the cmt text if you needed to your required cmts in 11th line...
 
 After download the folder extract it and open cmd and enter Python If You Find Python Version
 
@@ -13,7 +13,7 @@ Open cmd and enter pip install random and hit enter button (internet connection 
 
 After download the chromedriver(https://chromedriver.chromium.org/downloads extract these to downloaded folder)and with matches your chrome version of your pc and
 
-enter lsc.py in cmd on that particular folder or double click on lsc.py....
+enter report.py in cmd on that particular folder or double click on report.py....
 
 👉Python Install Setup=https://youtu.be/4bUOrMj88Pc
 
