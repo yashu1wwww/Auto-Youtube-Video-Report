@@ -4,25 +4,22 @@ Auto Youtube Video Report Using Selenium with python
 👉Auto Video Report 
 https://youtu.be/08rJk7XZwco
 
-#Replace Email and Pass in 10th & 11th line...
+After downloading the folder, extract it and open the command prompt. Enter your email and password in the 10th and 11th lines respectively. Make sure to use accounts that do not have 2-factor authentication enabled.
 
-#replace 23 linr with your video url which you want ot report ity...
+Replace the URL in the 23rd line with the URL of the video you want to report.
 
-note:-use accounts which dont have 2-factor authentication...
+To check your Python version, type "python" in the command prompt and hit enter. Then, install the random package by entering "pip install random" and hitting enter. Repeat the process to install the undetected_chromedriver package by entering "pip install undetected_chromedriver" and hitting enter.
 
-After download the folder extract it and open cmd and enter Python If You Find Python Version
+After downloading the appropriate chromedriver that matches the version of your Google Chrome browser (https://chromedriver.chromium.org/downloads), extract the files to the downloaded folder.
 
-Open cmd and enter pip install random and hit enter button (internet connection must be on...) and again pip install undetected_chromedriver and hit enter button (internet connection must be on...)
+Finally, enter "report.py" in the command prompt within the specific folder or double-click on "report.py
 
-After download the chromedriver(https://chromedriver.chromium.org/downloads extract these to downloaded folder)and with matches your chrome version of your pc and
-
-enter report.py in cmd on that particular folder or double click on report.py....
 
 👉Python Install Setup=https://youtu.be/4bUOrMj88Pc
 
 👉Note:-
 
-👉if your selenium version is in latest version then the code never run
+👉If you have the latest version of Selenium, the code may not run
 
 👉open cmd and enter pip uninstall selenium
 
