@@ -1,9 +1,6 @@
 # Auto-Youtube-Video-Report
 Auto Youtube Video Report Using Selenium with python
 
-👉Auto Video Report 
-https://youtu.be/08rJk7XZwco
-
 After downloading the folder, extract it and open the command prompt. Enter your email and password in the 10th and 11th lines respectively. Make sure to use accounts that do not have 2-factor authentication enabled.
 
 Replace the URL in the 23rd line with the URL of the video you want to report.
