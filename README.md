@@ -1,13 +1,23 @@
 # Auto-Youtube-Video-Report
 Auto Youtube Video Report Using Selenium with python
 
-After downloading the folder, extract it and open the command prompt. Enter your email and password in the 10th and 11th lines respectively. Make sure to use accounts that do not have 2-factor authentication enabled.
+After downloading the folder, extract it and open the command prompt.
+
+Enter your email and password in the 10th and 11th lines respectively. Make sure to use accounts that do not have 2-factor authentication enabled.
 
 Replace the URL in the 23rd line with the URL of the video you want to report.
 
-To check your Python version, type "python" in the command prompt and hit enter. Then, install the random package by entering "pip install random" and hitting enter. Repeat the process to install the undetected_chromedriver package by entering "pip install undetected_chromedriver" and hitting enter.
+To check your Python version, type "python" in the command prompt and hit enter. 
 
-After downloading the appropriate chromedriver that matches the version of your Google Chrome browser (https://chromedriver.chromium.org/downloads), extract the files to the downloaded folder.
+Then, install the random package by entering "pip install random" and hitting enter. 
+
+Repeat the process to install the undetected_chromedriver package 
+
+by entering "pip install undetected_chromedriver" and hitting enter.
+
+After downloading the appropriate chromedriver that matches the version of your Google Chrome browser (https://chromedriver.chromium.org/downloads), 
+
+extract the files to the downloaded folder.
 
 Finally, enter "report.py" in the command prompt within the specific folder or double-click on "report.py
 
