@@ -1,6 +1,10 @@
 # Auto-Youtube-Video-Report
 Auto Youtube Video Report Using Selenium with python
 
+# When Running If These Appear Then Fork It..
+
+The handle is invalid..
+
 After downloading the folder, extract it and open the command prompt.
 
 Enter your email and password in the 10th and 11th lines respectively. Make sure to use accounts that do not have 2-factor authentication enabled.
